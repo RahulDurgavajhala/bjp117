@@ -1,0 +1,30 @@
+h1{
+    width: 100%;
+    background-color: coral;
+    
+}
+#ShowSketch{
+    float: right;
+}
+p{
+    font-size: 27px;
+}
+body{
+    background-color: yellow;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+ animation-duration:4s ;
+ animation-iteration-count: infinite;
+ background-color: white;
+}
+@keyframes example{
+    from{
+        box-shadow: 5px 5px 5px red;
+    }
+    to{
+        box-shadow: 5px 5px 5px green;    
+    }
+}
